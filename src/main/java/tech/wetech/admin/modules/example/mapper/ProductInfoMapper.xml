@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tech.wetech.admin.modules.example.mapper.ProductInfoMapper" >
+  <resultMap id="BaseResultMap" type="tech.wetech.admin.modules.example.po.ProductInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="merchant_id" property="merchantId" jdbcType="VARCHAR" />
+    <result column="merchant_code" property="merchantCode" jdbcType="VARCHAR" />
+    <result column="merchant_type" property="merchantType" jdbcType="VARCHAR" />
+    <result column="product_code" property="productCode" jdbcType="VARCHAR" />
+    <result column="product_name" property="productName" jdbcType="VARCHAR" />
+    <result column="mapping_pid" property="mappingPid" jdbcType="VARCHAR" />
+    <result column="single_lower" property="singleLower" jdbcType="DECIMAL" />
+    <result column="single_upper" property="singleUpper" jdbcType="DECIMAL" />
+    <result column="total_lower" property="totalLower" jdbcType="DECIMAL" />
+    <result column="product_typecode" property="productTypecode" jdbcType="VARCHAR" />
+    <result column="product_typeremarks" property="productTyperemarks" jdbcType="VARCHAR" />
+    <result column="loan_type" property="loanType" jdbcType="VARCHAR" />
+    <result column="interest_rate" property="interestRate" jdbcType="DECIMAL" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="extra_info" property="extraInfo" jdbcType="VARCHAR" />
+    <result column="creater" property="creater" jdbcType="VARCHAR" />
+    <result column="modifier" property="modifier" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="platform_code" property="platformCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
